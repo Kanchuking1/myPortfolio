@@ -44,7 +44,10 @@ h2{font-size: 36px;}
 h3{font-size: 28px;}
 h4{font-size: 24px;}
 h5{font-size: 20px;}
-h6{font-size: 16px;}
+h6{
+    font-size: 12px;
+    font-weight: 100;
+}
 
 p, li, span, label, input, textarea {
     color: var(--secondaryText);
