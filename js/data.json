@@ -1,0 +1,121 @@
+{
+    "introduction": {
+        "p1": "I am a Software Developer. I am currently a student at BITS Pilani K.K. Birla Goa Campus.",
+        "p2": "My main interest lies in creating new and unique solutions to the modern world problems."
+    }, 
+    
+    "highlights": [1, 2, 3],
+    "games": [4, 6, 7],
+    "ar": [5, 8, 9],
+    "misc": [10, 11],
+    "hobbies": [12, 13],
+
+    "projects": [
+        {
+            "id" : 1,
+            "title" : "Gamer Galaxy",
+            "intro" : "An AR multiplayer gaming platform with all kinds of hypercasual games",
+            "target" : "https://devfolio.co/submissions/gamers-galaxy",
+            "alt" : "GG",
+            "thumbnail" : "./images/GamerGalaxy.png"
+        }, {
+            "id" : 2,
+            "title" : "Mobile based XR Exposure Therapy",
+            "intro" : "A mobile application to perform exposure therapy using Cardboard Headset and Smartphones.",
+            "target" : "https://github.com/Kanchuking1/XRExposureTherapy",
+            "alt" : "XR Exposure Therapy",
+            "thumbnail" : "./images/XRExposureTherapy.jpg"
+        }, {
+            "id" : 3,
+            "title" : "Meetme",
+            "intro" : "Meet me is a Puzzle based hypercasual game currently on Google Play Store.",
+            "target" : "https://aapks.com/apk/meetme-vikings-tech/",
+            "alt" : "Meetme",
+            "thumbnail" : "./images/Meetme.jpg"
+        }, {
+            "id" : 4,
+            "title" : "Disco Maniac",
+            "intro" : "A hypercasual game with about a guy who does not want to stop dancing",
+            "target" : "https://devfolio.co/submissions/gamers-galaxy",
+            "alt" : "discomaniac",
+            "thumbnail" : "./images/DiscoManiac.jpg"
+        }, {
+            "id" : 5,
+            "title" : "Smart AR",
+            "intro" : "SmartAR is a new way of doing labs with inbuilt AR experiments to help students perform experiments.",
+            "target" : "https://devfolio.co/submissions/smartar",
+            "alt" : "smartar",
+            "thumbnail" : "./images/SmartAR.jpeg"
+        }, {
+            "id" : 6,
+            "title" : "Zombie land",
+            "intro" : "A motion shooter game where you move and shoot zombies trying to attack you and defend yourself!",
+            "target" : "https://play.google.com/store/apps/details?id=com.vikings.zombiehunter",
+            "alt" : "Zombie",
+            "thumbnail" : "./images/ZombieHunter.jpg"
+        }, {
+            "id" : 7,
+            "title" : "Ball in Hole",
+            "intro" : "Roll the ball into the hole using on screen controls. Uncover exciting levels and challenges!",
+            "target" : "https://play.google.com/store/apps/details?id=com.vikings.ballinhole",
+            "alt" : "HoleBall",
+            "thumbnail" : "./images/HoleBall.jpg"
+        }, {
+            "id" : 8,
+            "title" : "Unlock",
+            "intro" : "An indoor AR based Navigation System with an added AR treasure hunt game.",
+            "target" : "https://devfolio.co/submissions/unlock",
+            "alt" : "unlock",
+            "thumbnail" : "./images/Unlock.jpeg"
+        }, {
+            "id" : 9,
+            "title" : "Covitopia",
+            "intro" : "AR Simulator for the spread of infectious diseases and a predictor for the number of cases.",
+            "target" : "https://github.com/MysteriousAcadia/Covitopia",
+            "alt" : "covitopia",
+            "thumbnail" : "./images/Covitopia.jpeg"
+        }, {
+            "id" : 10,
+            "title" : "Semi Automated Wheel chair",
+            "intro" : "This project is aimed at developing a working model of a semi-autonomous wheelchair.",
+            "target" : "https://github.com/Kanchuking1/Reading-Course-2020",
+            "alt" : "ROSWheelChair",
+            "thumbnail" : "./images/ROSWheelChair.png"
+        }, {
+            "id" : 11,
+            "title" : "IOT based Home Security System",
+            "intro" : "In this project we developed working model of a Home Security Systems using an ESP32.",
+            "target" : "https://www.youtube.com/watch?v=ECIDkSOKm0E",
+            "alt" : "IOTHomeSec",
+            "thumbnail" : "./images/HomeSecurity.png"
+        }, {
+            "id" : 12,
+            "title" : "Making 3D Art",
+            "intro" : "Here is the link to my art station account",
+            "target" : "https://wahibkapdi.artstation.com/",
+            "alt" : "ArtStation",
+            "thumbnail" : "./images/ArtStation.jpg"
+        }, {
+            "id" : 13,
+            "title" : "Youtube Channel",
+            "intro" : "We teach Game Dev and Blockchain mainly :P",
+            "target" : "https://www.youtube.com/channel/UCfv0kzKwu6L-nlqkoZhbFaA",
+            "alt" : "VikingsDevlogs",
+            "thumbnail" : "./images/Youtube.png"
+        }, {
+            "id" : 14,
+            "title" : "Gamer Galaxy",
+            "intro" : "An AR multiplayer gaming platform with all kinds of hypercasual games",
+            "target" : "https://devfolio.co/submissions/gamers-galaxy",
+            "alt" : "GG",
+            "thumbnail" : "./images/GamerGalaxy.png"
+        }, {
+            "id" : 15,
+            "title" : "Gamer Galaxy",
+            "intro" : "An AR multiplayer gaming platform with all kinds of hypercasual games",
+            "target" : "https://devfolio.co/submissions/gamers-galaxy",
+            "alt" : "GG",
+            "thumbnail" : "./images/GamerGalaxy.png"
+        }
+    ]
+}
