@@ -3,6 +3,8 @@
     --secondaryColor: #fff;
 
     --borderColor: #c1c1c1;
+    --hoverBorderColor: #c2c2c2;
+    --activeBorderColor: #c3c3c3;
 
     --mainText:black;
     --secondaryText: #4b5156;
@@ -309,6 +311,14 @@ p, li, span, label, input, textarea {
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 }
 
+.post:hover {
+    border: 1px solid var(--hoverBorderColor)
+}
+
+.post:active {
+    border: 1px solid var(--activeBorderColor);
+}
+
 .thumbnail{
     width: 100%;
     height: 150px;
@@ -342,10 +352,6 @@ p, li, span, label, input, textarea {
 	background-color: var(--mainColor);
 	margin-bottom: 50px;
 
-}
-
-#contact-form label{
-	line-height: 2.7em;
 }
 
 #contact-form textarea{
@@ -396,6 +402,19 @@ p, li, span, label, input, textarea {
     color: #17a2b8;
 }
 
+#socials-container {
+    display: flex;
+    height: 100px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.socials-icon-xl {
+    color: var(--mainText);
+    font-size: 5em;
+}
+
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
@@ -410,6 +429,10 @@ p, li, span, label, input, textarea {
             'left-column' 
             'right-column'
         ;
+    }
+
+    #socials-container {
+        height: 200px;
     }
 
     .right-column{

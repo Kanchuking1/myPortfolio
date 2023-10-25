@@ -8,15 +8,31 @@ const setInnerTextById = (text, id) => {
 
 const generateTileHTML = (project) => {
     return `<div>
-        <div class="post" id="${project.id}">
-            <img class="thumbnail" src="${project.thumbnail}" alt="${project.alt}">
-            <div class="post-preview">
-                <h6 class="post-title">${project.title}</h6>
-                <p class="post-intro">${project.intro}</p>
-                <p><a target="_blank" href="${project.target}">Let's Go</a></p>
+        <a target="_blank" href="${project.target}">
+            <div class="post" id="${project.id}">
+                <img class="thumbnail" src="${project.thumbnail}" alt="${project.alt}">
+                <div class="post-preview">
+                    <h6 class="post-title">${project.title}</h6>
+                    <p class="post-intro">${project.intro}</p>
+                    <p><a target="_blank" href="${project.target}">Let's Go</a></p>
+                </div>
             </div>
-        </div>
+        </a>
+        
     </div>`;
+}
+
+const generateContactSectionSocial = (social) => {
+    return `<li id=${social.id}>
+        <a target="_blank" href="${social.link}">
+            <i class="${social.classes} fa-2xl"></i>
+        </a>
+    </li>`;
+}
+
+const generateHeroSectionSocial = (social) => {
+    return `<a target="_blank" href="${social.link}" id="${social.id}"><div class="${social.classes} socials-icon-xl">
+    </div></a>`
 }
 
 const setSectionHTML = async (projects, id) => {
@@ -25,4 +41,8 @@ const setSectionHTML = async (projects, id) => {
         html += generateTileHTML(project);
     }
     setInnerHTMLById(html, id);
+}
+
+const appendInnerHTMLById = (html, id) => {
+    document.getElementById(id).innerHTML += html;
 }

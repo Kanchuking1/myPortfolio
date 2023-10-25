@@ -24,6 +24,17 @@ const initialize = async () => {
     // Initialize the hobbies
     const hobbies = data.projects.filter((project) => data.hobbies.includes(project.id));
     setSectionHTML(hobbies, "hobbies-post-wrapper");
+
+    const socials = data.socials;
+    //Contact Section Socials
+    for (const social of socials) {
+        appendInnerHTMLById(generateContactSectionSocial(social), "socials-list");
+    }
+
+    const heroSocials = socials.filter(social => data.herosocials.includes(social.id));
+    for (const hero of heroSocials) {
+        appendInnerHTMLById(generateHeroSectionSocial(hero), "socials-container");
+    }
 }
 
 try {

@@ -36,16 +36,16 @@
             "id" : 4,
             "title" : "Disco Maniac",
             "intro" : "A hypercasual game with about a guy who does not want to stop dancing",
-            "target" : "https://devfolio.co/submissions/gamers-galaxy",
+            "target" : "https://play.google.com/store/apps/details?id=com.vikings.discomaniac",
             "alt" : "discomaniac",
             "thumbnail" : "./images/DiscoManiac.jpg"
         }, {
             "id" : 5,
-            "title" : "Smart AR",
+            "title" : "AR Science Lab",
             "intro" : "SmartAR is a new way of doing labs with inbuilt AR experiments to help students perform experiments.",
             "target" : "https://devfolio.co/submissions/smartar",
             "alt" : "smartar",
-            "thumbnail" : "./images/SmartAR.jpeg"
+            "thumbnail" : "./images/AR Science Lab.png"
         }, {
             "id" : 6,
             "title" : "Zombie land",
@@ -62,11 +62,11 @@
             "thumbnail" : "./images/HoleBall.jpg"
         }, {
             "id" : 8,
-            "title" : "Unlock",
+            "title" : "Indoor AR Navigation",
             "intro" : "An indoor AR based Navigation System with an added AR treasure hunt game.",
             "target" : "https://devfolio.co/submissions/unlock",
             "alt" : "unlock",
-            "thumbnail" : "./images/Unlock.jpeg"
+            "thumbnail" : "./images/Indoor Navigation.png"
         }, {
             "id" : 9,
             "title" : "Covitopia",
@@ -104,8 +104,8 @@
             "thumbnail" : "./images/Youtube.png"
         }, {
             "id" : 14,
-            "title" : "Gamer Galaxy",
-            "intro" : "An AR multiplayer gaming platform with all kinds of hypercasual games",
+            "title" : "Indoor Navigation using AR",
+            "intro" : "Indoor Navigation ",
             "target" : "https://devfolio.co/submissions/gamers-galaxy",
             "alt" : "GG",
             "thumbnail" : "./images/GamerGalaxy.png"
@@ -116,6 +116,63 @@
             "target" : "https://devfolio.co/submissions/gamers-galaxy",
             "alt" : "GG",
             "thumbnail" : "./images/GamerGalaxy.png"
+        }
+    ],
+    "herosocials": [1,3,7,8,9],
+    "socials" : [
+        {
+            "id" : 1,
+            "name" : "youtube",
+            "link" : "https://www.youtube.com/@VikingsDevlogs/featured",
+            "classes" : "fa-brands fa-youtube"
+        },
+        {
+            "id" : 2,
+            "name" : "linkedin",
+            "link" : "https://www.linkedin.com/in/wahib-kapdi-00674316b/",
+            "classes" : "fa-brands fa-linkedin"
+        },
+        {
+            "id" : 3,
+            "name" : "github",
+            "link" : "https://github.com/Kanchuking1",
+            "classes" : "fa-brands fa-github"
+        },
+        {
+            "id" : 4,
+            "name" : "email",
+            "link" : "mailto:wahibkapdi2212@gmail.com",
+            "classes" : "fa-regular fa-envelope"
+        },
+        {
+            "id" : 5,
+            "name" : "twitter",
+            "link" : "https://twitter.com/KapdiSabir",
+            "classes" : "fa-brands fa-twitter"
+        },
+        {
+            "id" : 6,
+            "name" : "instagram",
+            "link" : "https://www.instagram.com/wahibkapdi/",
+            "classes" : "fa-brands fa-instagram"
+        },
+        {
+            "id" : 7,
+            "name" : "play store",
+            "link" : "https://play.google.com/store/apps/dev?id=6457341340960983923",
+            "classes" : "fa-brands fa-google-play"
+        },
+        {
+            "id" : 8,
+            "name" : "devpost",
+            "link" : "https://devpost.com/Kanchuking1",
+            "classes" : "fa-brands fa-dev"
+        },
+        {
+            "id" : 9,
+            "name" : "devfolio",
+            "link" : "https://devfolio.co/@Kanchuking1",
+            "classes" : "fa-solid fa-code"
         }
     ]
 }
