@@ -376,6 +376,26 @@ p, li, span, label, input, textarea {
 	border:none;
 }
 
+.list-unstyled {
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.list-unstyled li {
+    margin-left: 8px;
+}
+
+.fa-devfolio {
+    content: url("../images/devfolio.svg");
+    font-size: 1em;
+    display: block;
+    width: 2em;
+    height: 2em;
+    position: relative;
+    top: -4px;
+    color: #17a2b8;
+}
+
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;

@@ -1,9 +1,9 @@
 {
     "introduction": {
-        "p1": "I am a Software Developer. I am currently a student at BITS Pilani K.K. Birla Goa Campus.",
-        "p2": "My main interest lies in creating new and unique solutions to the modern world problems."
+        "p1": "I am a Software Engineer with a keen interest in interdisciplinary understanding of electrical and computer science. I my undergraduate in Electrical & Electronics Engineering from BITS Pilani K.K. Birla Goa Campus.",
+        "p2": "My main interest lies in creating new and unique solutions to the modern world problems while researching Human-Computer Interaction and Natural Language."
     }, 
-    
+
     "highlights": [1, 2, 3],
     "games": [4, 6, 7],
     "ar": [5, 8, 9],
