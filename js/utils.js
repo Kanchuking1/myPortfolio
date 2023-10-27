@@ -35,6 +35,10 @@ const generateHeroSectionSocial = (social) => {
     </div></a>`
 }
 
+const generateWorkexHTML = (workex) => {
+    
+}
+
 const setSectionHTML = async (projects, id) => {
     let html = '';
     for await (const project of projects) {

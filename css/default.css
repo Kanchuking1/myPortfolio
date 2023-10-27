@@ -15,6 +15,7 @@
     --previewShadow: #f0ead6;
 
     --btnColor: black;
+    --inversionVal: 0;
 }
 
 html, body {
@@ -385,6 +386,7 @@ p, li, span, label, input, textarea {
 .list-unstyled {
     display: flex;
     padding-inline-start: 0;
+    justify-content: space-around;
 }
 
 .list-unstyled li {
@@ -413,6 +415,60 @@ p, li, span, label, input, textarea {
 .socials-icon-xl {
     color: var(--mainText);
     font-size: 5em;
+}
+
+.workex-item {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--mainText);
+}
+
+.workex-icon {
+    line-height: 100%;
+}
+
+.workex-header {
+    padding-inline: 20px;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 2px solid var(--secondaryColor);
+}
+
+.workex-date {
+    float: right;
+    color: var(--secondaryText);
+}
+
+.workex-data-container {
+    width: 70%;
+}
+
+.company-icon {
+    position: relative;
+    filter: invert(var(--inversionVal));
+    width: 200px;
+}
+
+.oracle-icon {
+    content: url(../images/oracle.svg);
+}
+
+.jpm-icon {
+    content: url(../images/jp-morgan.svg);
+    top: 50px;
+}
+
+.workex-title, .workex-date {
+    margin-block-end: 10px;
+}
+
+.calendar-icon {
+    margin-inline-end: 4px
+}
+
+.projectParagraph {
+    margin-block-start: 20px;
+    margin-block-end: 10px;
 }
 
 @media screen and (max-width: 1200px){
