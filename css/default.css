@@ -541,4 +541,17 @@ p, li, span, label, input, textarea {
     .oracle-icon {
         line-height: 2em;
     }
+
+    .hackathons ul {
+        padding-inline: 20px;
+    }
+
+    .about-me {
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    #skills {
+        margin-inline: 0px;
+    }
 }
