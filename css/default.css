@@ -499,4 +499,46 @@ p, li, span, label, input, textarea {
     .right-column{
         justify-content: center;
     }
+
+    .workex-item {
+        display: block;
+        justify-content: space-around;
+        border-bottom: 1px solid var(--mainText);
+    }
+
+    .workex-header {
+        padding-inline: 20px;
+        justify-content: space-between;
+        display: block;
+        border-bottom: 2px solid var(--secondaryColor);
+    }
+
+    .description-list {
+        font-weight: 400;
+    }
+
+    .workex-date {
+        float: none;
+    }
+
+    .workex-data-container {
+        width: 100%;
+    }
+
+    #workex-list {
+        padding-inline: 20px;
+    }
+
+    .workex-icon {
+        justify-content: center;
+        display: flex;
+    }
+
+    .jpm-icon {
+        top: 0px;
+    }
+
+    .oracle-icon {
+        line-height: 2em;
+    }
 }
