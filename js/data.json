@@ -174,5 +174,25 @@
             "link" : "https://devfolio.co/@Kanchuking1",
             "classes" : "fa-solid fa-code"
         }
+    ],
+    "workex" : [
+        {
+            "id": 1,
+            "role": "Member of Techincal Staff",
+            "time": "July 2023 - Current",
+            "location": "Bengaluru / Hyderabad",
+            "description": ["Ideated and Developed a content marketing platform - Guided Tours. It helps the business deliver personalized and engaging content to their target audience and analyze their engagement. This product saved the company $500,000 per year by replacing outsourced technology PathFactory.","Developed features for Oracle Content Cloud including Video Transcription (viewing and editing) and importing/exporting site packages from the Cotent Cloud.","Mentored an intern for the period of two months and helped her build a Video Annotation system on the Oracle Content Cloud."],
+            "class": "oracle-icon"
+        },
+        {
+            "id": 2,
+            "role": "Innovation & Automation Intern",
+            "time": "Jan 2022 - July 2022",
+            "location": "Mumbai",
+            "description": ["Developed an email parser to generate summary reports about the emails the people from the BU received. This innovation saved roughly 140 hours of work on yearly basis.",
+            "Developed dashboard and automated report generation for business units to expedite the data consumption. This process saved the company another 200 hours an year.",
+            "Researched the automation of analysis of peer banks 10K and 10Q declaration to generate a peer bank performance report."],
+            "class": "jpm-icon"
+        }
     ]
 }

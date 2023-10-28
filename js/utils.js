@@ -36,7 +36,28 @@ const generateHeroSectionSocial = (social) => {
 }
 
 const generateWorkexHTML = (workex) => {
-    
+    let descriptionItems = "";
+    for (const item of workex.description) {
+        descriptionItems += `<li>${item}</li>`;
+    }
+    return `<li class="workex-item" id="${workex.id}">
+        <div class="workex-icon">
+            <i class="company-icon fa-solid ${workex.class} fa-2xl"></i>
+        </div>
+        <div class="workex-data-container">
+            <div class="workex-header">
+                <h3 class="workex-title" style="margin-block-end: 6px">${workex.role}</h3>
+                <h5 class="workex-date">
+                    <i class="fa fa-calendar calendar-icon"></i>${workex.time}
+                </h5>
+            </div>
+            <div style="padding-block: 10px">
+                <i class="fa-solid fa-location-dot fa-lg"></i>
+                ${workex.location}
+            </div>
+            <p class="projectParagraph"><ul class="description-list">${descriptionItems}</ul></p>
+        </div>
+    </li>`
 }
 
 const setSectionHTML = async (projects, id) => {

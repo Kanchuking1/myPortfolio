@@ -471,6 +471,11 @@ p, li, span, label, input, textarea {
     margin-block-end: 10px;
 }
 
+.description-list {
+    list-style: disc;
+    padding-inline-start: 8px;
+}
+
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;

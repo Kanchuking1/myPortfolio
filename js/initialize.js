@@ -35,6 +35,13 @@ const initialize = async () => {
     for (const hero of heroSocials) {
         appendInnerHTMLById(generateHeroSectionSocial(hero), "socials-container");
     }
+
+    // Work Experience Section
+    const workexps = data.workex;
+
+    for (const workex of workexps) {
+        appendInnerHTMLById(generateWorkexHTML(workex), "workex-list");
+    }
 }
 
 try {
