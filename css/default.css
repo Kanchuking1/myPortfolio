@@ -123,6 +123,14 @@ p, li, span, label, input, textarea {
     margin-left: 5px;
 }
 
+#navigation li:hover {
+    color: var(--themeDotBorder);
+}
+
+.nav-text:hover {
+    color: var(--secondaryText);
+}
+
 .dots-wrapper{
     display: flex;
     padding: 10px;
@@ -562,5 +570,9 @@ p, li, span, label, input, textarea {
     #preview-shadow #preview {
         padding: 0px;
         text-align: center;
+    }
+
+    .nav-text {
+        display: none;
     }
 }
