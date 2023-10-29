@@ -554,4 +554,13 @@ p, li, span, label, input, textarea {
     #skills {
         margin-inline: 0px;
     }
+
+    #preview-shadow {
+        padding: 0px;
+    }
+
+    #preview-shadow #preview {
+        padding: 0px;
+        text-align: center;
+    }
 }
