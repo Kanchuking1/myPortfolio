@@ -119,16 +119,22 @@ p, li, span, label, input, textarea {
 
 #navigation li {
     display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-inline: 0px;
 }
 
-#navigation li:hover {
+.nav-option:hover {
     color: var(--themeDotBorder);
 }
 
-.nav-text:hover {
-    color: var(--secondaryText);
+.nav-button {
+    height: 100%;
+    border: 0;
+    min-width: 121px;
+    background-color: var(--mainColor);
+}
+
+.nav-button:hover {
+    background-color: var(--previewShadow);
 }
 
 .dots-wrapper{
@@ -583,5 +589,9 @@ p, li, span, label, input, textarea {
 
     .nav-text {
         display: none;
+    }
+
+    .nav-button {
+        min-width: 0;
     }
 }
