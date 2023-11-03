@@ -130,6 +130,7 @@ p, li, span, label, input, textarea {
     height: 100%;
     border: 0;
     min-width: 121px;
+    color: var(--mainText);
     background-color: var(--mainColor);
 }
 
