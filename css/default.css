@@ -110,7 +110,10 @@ p, li, span, label, input, textarea {
 
 #navigation{
     margin: 0;
-    padding: 10px;
+    padding-inline: 10px;
+    position: relative;
+    top: 0;
+    bottom: 0;
 }
 
 #navigation a {
@@ -419,6 +422,10 @@ p, li, span, label, input, textarea {
     color: #17a2b8;
 }
 
+#socials-list {
+    line-height: 2em;
+}
+
 #socials-container {
     display: flex;
     height: 100px;
@@ -594,5 +601,11 @@ p, li, span, label, input, textarea {
 
     .nav-button {
         min-width: 0;
+        height: 100%;
+    }
+
+    #socials-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(3em, 1fr));
     }
 }
