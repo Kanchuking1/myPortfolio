@@ -4,10 +4,10 @@
         "p2": "My main interest lies in creating new and unique solutions to the modern world problems while researching Human-Computer Interaction and Natural Language."
     }, 
 
-    "highlights": [1, 2, 3],
+    "highlights": [1, 2, 14],
     "games": [4, 6, 7],
     "ar": [5, 8, 9],
-    "misc": [10, 11],
+    "misc": [10, 11, 15],
     "hobbies": [12, 13],
 
     "projects": [
@@ -104,18 +104,18 @@
             "thumbnail" : "./images/Youtube.png"
         }, {
             "id" : 14,
-            "title" : "Indoor Navigation using AR",
-            "intro" : "Indoor Navigation ",
-            "target" : "https://devfolio.co/submissions/gamers-galaxy",
-            "alt" : "GG",
-            "thumbnail" : "./images/GamerGalaxy.png"
+            "title" : "Docker Copilot",
+            "intro" : "An AI assistant Extension to support your workflow in Docker Desktop using GPT 4 Turbo",
+            "target" : "https://devpost.com/software/docker-copilot",
+            "alt" : "Docker Copilot",
+            "thumbnail" : "./images/Docker Copilot.png"
         }, {
             "id" : 15,
-            "title" : "Gamer Galaxy",
-            "intro" : "An AR multiplayer gaming platform with all kinds of hypercasual games",
-            "target" : "https://devfolio.co/submissions/gamers-galaxy",
-            "alt" : "GG",
-            "thumbnail" : "./images/GamerGalaxy.png"
+            "title" : "GUI Molecule Editor using RDKit",
+            "intro" : "A way to graphically represent and build Molecules using RDKit for Chemformatics",
+            "target" : "https://github.com/Kanchuking1/GUIMolRDEditor",
+            "alt" : "GUI Molecule Editor",
+            "thumbnail" : "./images/Molecule Editor.png"
         }
     ],
     "herosocials": [1,3,7,8,9],
