@@ -40,7 +40,11 @@ const initialize = async () => {
     const workexps = data.workex;
 
     for (const workex of workexps) {
-        appendInnerHTMLById(generateWorkexHTML(workex), "workex-list");
+        try {
+            appendInnerHTMLById(generateWorkexHTML(workex), "workex-list");
+        } catch (error) {
+            console.log('Work Experience is Hidden');
+        }
     }
 
     window.onscroll = function() {myFunction()};
