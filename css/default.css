@@ -480,6 +480,11 @@ p, li, span, label, input, textarea {
     top: 50px;
 }
 
+.tamu-icon {
+    color: white;
+    content: url(../images/TAMU.svg);
+}
+
 .workex-title, .workex-date {
     margin-block-end: 10px;
 }
