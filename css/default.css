@@ -114,6 +114,7 @@ p, li, span, label, input, textarea {
     position: relative;
     top: 0;
     bottom: 0;
+    height: 2.85em;
 }
 
 #navigation a {
@@ -131,7 +132,7 @@ p, li, span, label, input, textarea {
 
 .nav-button {
     height: 100%;
-    border: 0;
+    border: 1px solid var(--borderColor);
     min-width: 121px;
     color: var(--mainText);
     background-color: var(--mainColor);
@@ -139,6 +140,8 @@ p, li, span, label, input, textarea {
 
 .nav-button:hover {
     background-color: var(--previewShadow);
+    font-size: 1.1em;
+    cursor: pointer;
 }
 
 .dots-wrapper{
@@ -439,6 +442,11 @@ p, li, span, label, input, textarea {
     font-size: 5em;
 }
 
+.socials-icon-xl:hover {
+    color: var(--hoverBorderColor);
+    font-size: 6em;
+}
+
 .workex-item {
     display: flex;
     justify-content: space-around;
@@ -483,6 +491,12 @@ p, li, span, label, input, textarea {
 .tamu-icon {
     color: white;
     content: url(../images/TAMU.svg);
+}
+
+.infineon-icon {
+    color: white;
+    content: url(../images/ifx.svg);
+    filter: invert(0); /* Keep Infineon logo white; override .company-icon invert */
 }
 
 .workex-title, .workex-date {

@@ -46,7 +46,7 @@ const generateWorkexHTML = (workex) => {
         </div>
         <div class="workex-data-container">
             <div class="workex-header">
-                <h3 class="workex-title" style="margin-block-end: 6px">${workex.role}</h3>
+                <h3 class="workex-title" style="margin-block-end: 6px">${workex.company ? workex.company + " — " : ""}${workex.role}</h3>
                 <h5 class="workex-date">
                     <i class="fa fa-calendar calendar-icon"></i>${workex.time}
                 </h5>
@@ -59,6 +59,14 @@ const generateWorkexHTML = (workex) => {
         </div>
     </li>`
 }
+
+const generateSkillsHTML = (skills) => {
+    if (!skills) return "";
+    const toListItems = (str) => (str || "").split(",").map(s => s.trim()).filter(Boolean).map(s => `<li>${s}</li>`).join("");
+    const col1 = [skills.languages, skills.frameworks].map(toListItems).join("");
+    const col2 = [skills.systems, skills.infrastructure, skills.data_ml].map(toListItems).join("");
+    return `<ul>${col1}</ul><ul>${col2}</ul>`;
+};
 
 const setSectionHTML = async (projects, id) => {
     let html = '';

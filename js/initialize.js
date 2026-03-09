@@ -5,6 +5,10 @@ const initialize = async () => {
     setInnerTextById(data.introduction.p1, 'p1');
     setInnerTextById(data.introduction.p2, 'p2');
 
+    if (data.skills) {
+        setInnerHTMLById(generateSkillsHTML(data.skills), 'skills');
+    }
+
     // Initialize Highlight Projects
     const highlights = data.projects.filter((project) => data.highlights.includes(project.id));
     setSectionHTML(highlights, "highlights-post-wrapper");

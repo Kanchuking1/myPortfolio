@@ -1,11 +1,19 @@
 {
     "introduction": {
-        "p1": "I am a Software Engineer with a keen interest in interdisciplinary understanding of electrical and computer science.I did my undergraduate from BITS Pilani, Goa Campus and currently pursuing my MSCS from Texas A&M University.",
-        "p2": "My main interest lies in creating new and unique solutions to the modern world problems while researching Human-Computer Interaction and Natural Language."
-    }, 
+        "p1": "I am a Software Engineer with a background in Electrical and Electronics Engineering from BITS Pilani and currently pursuing my Master of Computer Science at Texas A&M University (Aug 2024 - May 2026).",
+        "p2": "I build scalable systems and automation pipelines—from production-grade C++ and Python tooling to distributed ML inference and key-value storage engines. I am passionate about backend systems, concurrency, and turning complex requirements into reliable, high-performance solutions."
+    },
+
+    "contact": {
+        "name": "Wahib Sabir Kapdi",
+        "location": "Bryan, TX",
+        "phone": "+1 214 899 2620",
+        "email": "wahibkapdi2212@gmail.com",
+        "portfolio": "kanchuking1.github.io/myPortfolio"
+    },
 
     "active": [16],
-    "highlights": [14, 18, 17],
+    "highlights": [18, 14, 17],
     "games": [4, 2, 7],
     "ar": [5, 1, 9],
     "misc": [10, 11, 15],
@@ -138,9 +146,25 @@
             "target" : "https://github.com/tamu-edu-students/Faculty-Teaching-Assignment",
             "alt" : "AggieAssign",
             "thumbnail" : "./images/AggieAssign.png"
+        },
+        {
+            "id" : 19,
+            "title" : "MiniServe",
+            "intro" : "Distributed asynchronous ML inference pipeline using FastAPI and Redis Streams. Decoupled request pipeline with worker replicas for scalable CPU-based image classification. Deployed on EC2.",
+            "target" : "https://github.com/Kanchuking1/MiniServe",
+            "alt" : "MiniServe",
+            "thumbnail" : "./images/AggieAssign.png"
+        },
+        {
+            "id" : 20,
+            "title" : "C++ Key-Value Storage Engine",
+            "intro" : "High-performance key-value storage with non-blocking TCP server (poll()), dynamically resizing hash table with separate chaining and incremental rehashing for amortized O(1) lookups.",
+            "target" : "https://github.com/Kanchuking1/key-value-server",
+            "alt" : "Key-Value Server",
+            "thumbnail" : "./images/AggieAssign.png"
         }
     ],
-    "herosocials": [1,3,7,8,9],
+    "herosocials": [1,3,7,2,9],
     "socials" : [
         {
             "id" : 1,
@@ -199,24 +223,36 @@
     ],
     "workex" : [
         {
-            "id": 3,
-            "role": "Student Assistant",
-            "time": "August 2024 - Present",
-            "location": "TX, USA",
-            "description": ["Currently working with Professor Suryansh Kumar on improving Object Trackers using RL.",
-            "Graded Programming Challenge for Intro to Visual Computing VIST-172 for 130 students."],
-            "class": "tamu-icon"
-        },
-        {
             "id": 1,
-            "role": "Member of Techincal Staff",
-            "time": "July 2022 - August 2024",
-            "location": "India, Remote",
-            "description": ["Ideated and Developed a content marketing platform - Guided Tours. It helps the business deliver personalized and engaging content to their target audience and analyze their engagement. This product saved the company $500,000 per year by replacing outsourced technology PathFactory.","Developed features for Oracle Content Cloud including Video Transcription (viewing and editing) and importing/exporting site packages from the Cotent Cloud.","Mentored an intern for the period of two months and helped her build a Video Annotation system on the Oracle Content Cloud."],
-            "class": "oracle-icon"
+            "role": "Software and Automation Intern",
+            "company": "Infineon Technologies",
+            "time": "Jun 2025 - Dec 2025",
+            "location": "Warwick, RI",
+            "description": [
+                "Engineered a production-grade C++ DLL exposing stable APIs for hardware communication, employing parallel programming to optimize throughput and enabling scalable automation pipelines for the entire engineering team.",
+                "Automated hardware-in-the-loop (HIL) testing workflows with Python and MySQL-backed data persistence, integrating debugging and profiling to enable unattended execution and save 1000+ engineering hours annually.",
+                "Designed and deployed a long-running, fault-tolerant test platform (ElectronJS + Django) to schedule and monitor 4000+ hour hardware validation runs with automated job recovery, email-based fault notifications, and task prioritization.",
+                "Built CI/CD pipelines and containerized services on OpenShift; refactored codebases for isolated dev/prod MySQL environments.",
+                "Initiated and built a secure ReactJS analytics platform to replace vulnerable Excel-based data sharing, safeguarding proprietary FET performance regressions via role-based access control."
+            ],
+            "class": "infineon-icon"
         },
         {
             "id": 2,
+            "role": "Software Engineer, Oracle Content Management",
+            "company": "Oracle",
+            "time": "July 2022 - August 2024",
+            "location": "Bengaluru, India",
+            "description": [
+                "Developed and maintained large-scale backend services for content analytics and customer behavior tracking, integrating ML models to support lead generation and user engagement using Oracle CMS and ReactJS.",
+                "Built scalable REST APIs backed by Postgres and distributed services to process high-volume content metadata and behavioral signals.",
+                "Partnered with product and analytics teams to instrument performance metrics and optimize workflows, eliminating $50K/year in outsourcing costs.",
+                "Designed a custom adaptive-bitrate video player using VideoJS for Oracle Media Services, replacing third-party solutions and reducing recurring licensing costs.",
+                "Implemented event-driven processing workflows using Kafka for scalable content indexing and asynchronous job execution, applying deep learning techniques to enhance metadata extraction."
+            ],
+            "class": "oracle-icon"
+        },{
+            "id": 3,
             "role": "Innovation & Automation Intern",
             "time": "Jan 2022 - July 2022",
             "location": "India, Remote",
@@ -225,5 +261,26 @@
             "Researched the automation of analysis of peer banks 10K and 10Q declaration to generate a peer bank performance report."],
             "class": "jpm-icon"
         }
-    ]
+    ],
+    "education": [
+        {
+            "school": "Texas A&M University",
+            "location": "College Station, TX",
+            "degree": "Master of Computer Science",
+            "time": "Aug 2024 - May 2026",
+            "coursework": "Algorithms for Big Data, Distributed Systems, Cloud Computing, Parallel Computing"
+        },
+        {
+            "school": "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
+            "location": "Pilani",
+            "degree": "Bachelors of Engineering, Electrical and Electronics Engineering",
+            "time": "Jul 2018 - Jul 2022"
+        }
+    ],
+    "skills": {
+        "languages": "C++17, Python, TypeScript/JavaScript, Bash, Go",
+        "frameworks": "Django, FastAPI, React, Node.js, Ray",
+        "infrastructure": "Docker, Kubernetes, AWS (EC2 & S3), Jenkins",
+        "data_ml": "PostgreSQL, MongoDB, Redis, Kafka, PyTorch, CUDA"
+    }
 }
